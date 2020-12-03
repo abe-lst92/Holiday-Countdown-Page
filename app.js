@@ -35,7 +35,24 @@ date.innerHTML = currentTime.toLocaleDateString();
 // var date = document.getElementById("date");
 // date.innerHTML = currentTime.toLocaleDateString();
 
+var x = 18;
+var y = 22; 
+var total = x + y;
+console.log(total);
 
+
+var YES = true;
+var NO = false;
+
+if(YES)
+{
+    alert("This code block will be executed");
+}
+
+if(NO)
+{
+    alert("This code block will not be executed");
+}
 
 //this will get the day of the week\\
 var dayWeeks = new Array ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
